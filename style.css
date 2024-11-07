@@ -1,0 +1,41 @@
+body {
+    background-color: lightpink;
+}
+
+.contact-info {
+    text-align: right;
+    font-size: smaller;
+}
+
+.form-title {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.profile-pic {
+    float: right;
+    border: 1px solid #000;
+    width: 100px;
+    height: 100px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+input, textarea, select {
+    margin-bottom: 10px;
+}
+
+fieldset {
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+legend {
+    font-weight: bold;
+}

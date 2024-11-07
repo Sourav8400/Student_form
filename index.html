@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formal Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <p class="contact-info">
+        Contact us on <a href="mailto:alphacoderr@gmail.com">alphacoderr@gmail.com</a>
+    </p>
+    
+    <h2 class="form-title"><mark>FORM</mark></h2>
+    
+    <form>
+        <fieldset>
+            <legend><b><mark>BASIC INFORMATION</mark></b></legend><br>
+            
+            <img src="user.png" alt="photo" class="profile-pic">
+            
+            <label for="fname">NAME:</label>
+            <input type="text" placeholder="Enter your name" id="fname"><br><br>
+            
+            <label for="father-name">FATHER'S NAME:</label>
+            <input type="text" id="father-name"><br><br>
+            
+            <label for="mother-name">MOTHER'S NAME:</label>
+            <input type="text" id="mother-name"><br><br>
+            
+            <label for="dob">DATE OF BIRTH:</label>
+            <input type="date" id="dob"><br><br>
+            
+            GENDER:
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+            <input type="radio" name="gender" value="Other"> Other<br><br>
+            
+            <label for="mobile">CONTACT NO. 📱:</label>
+            <input type="number" id="mobile"><br><br>
+            
+            <label for="email">EMAIL ID:</label>
+            <input type="email" placeholder="example@domain.com" id="email"><br><br>
+            
+            <label for="address">HOME ADDRESS:</label>
+            <textarea rows="4" cols="30" id="address" placeholder="Vill/Locality/Area"></textarea><br><br>
+            
+            <label for="pincode">PIN CODE:</label>
+            <input type="number" id="pincode"><br><br>
+            
+            <label for="state">STATE:</label>
+            <select id="state">
+                <option value="">Select</option>
+                <optgroup label="States">
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    <option value="Manipur">Manipur</option>
+                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                    <option value="Meghalaya">Meghalaya</option>
+                    <option value="Assam">Assam</option>
+                    <option value="Mizoram">Mizoram</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="Nagaland">Nagaland</option>
+                    <option value="Chhattisgarh">Chhattisgarh</option>
+                    <option value="Odisha">Odisha</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                    <option value="Haryana">Haryana</option>
+                    <option value="Sikkim">Sikkim</option>
+                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Jharkhand">Jharkhand</option>
+                    <option value="Telangana">Telangana</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Tripura">Tripura</option>
+                    <option value="Uttarakhand">Uttarakhand</option>
+                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                    <option value="West Bengal">West Bengal</option>
+                </optgroup>
+            </select><br><br>
+            
+            <input type="submit" value="Submit">
+        </fieldset><br><br>
+        
+        <fieldset>
+            <legend><b><mark>EDUCATION QUALIFICATION</mark></b></legend><br>
+            
+            <label for="degree">DEGREE:</label>
+            <select id="degree">
+                <option value="">Select</option>
+                <optgroup label="Commerce">
+                    <option value="B.Com">B.Com</option>
+                    <option value="BBA">BBA</option>
+                    <option value="CA">CA</option>
+                    <option value="CWA">CWA</option>
+                </optgroup>
+                <optgroup label="Science">
+                    <option value="B.Tech">B.Tech</option>
+                    <option value="B.Sc">B.Sc</option>
+                    <option value="BCA">BCA</option>
+                    <option value="BDS">BDS</option>
+                </optgroup>
+            </select><br><br>
+            
+            HOBBIES:
+            <input type="checkbox" name="sport" value="Cricket"> Cricket
+            <input type="checkbox" name="sport" value="Football"> Football<br>
+            <input type="checkbox" name="sport" value="Badminton"> Badminton
+            <input type="checkbox" name="sport" value="Kabaddi"> Kabaddi
+            <input type="checkbox" name="sport" value="Basketball"> Basketball
+        </fieldset>
+    </form>
+
+</body>
+</html>
